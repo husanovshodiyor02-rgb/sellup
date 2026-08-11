@@ -16,8 +16,6 @@ const Header = () => {
       i18n.changeLanguage(nextLang);
     };
 
-    
-
     const displayLang = i18n.language.toLowerCase().startsWith("ru")
       ? "RU"
       : "UZ";
